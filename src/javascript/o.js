@@ -42,9 +42,9 @@ Globally exposed namespace with the most frequently used public classes and hand
 	o.Exceptions = exports.moxie.core.Exceptions;
 
 	// expose globally
-	exports.mOxie = o;
+	exports.mOxie = $.moxie = o;
 	if (!exports.o) {
 		exports.o = o;
 	}
 	return o;
-})(this);
+})(window);
